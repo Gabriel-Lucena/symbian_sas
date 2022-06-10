@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroCliente">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/cadastroClienteTitulo" />
+
+
+        <EditText
+            android:id="@+id/txtNome"
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtNome"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/txtSobrenome"
+
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtSobrenome"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtEmail"
+
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/txtCelular"
+            style="@style/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txtCelular"
+
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnCadastrarUsuario"
+            style="@style/btnForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTintMode="add"
+            android:text="@string/cadastrar"
+            app:rippleColor="@color/teal_200"
+            app:strokeColor="#A11313" />
+
+    </LinearLayout>
+
+</ScrollView>

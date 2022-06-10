@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Symbian-SAS</string>
+    <string name="cadastroClienteTitulo">Cadastro de Cliente</string>
+    <string name="txtNome">Nome</string>
+    <string name="txtSobrenome">Sobrenome</string>
+    <string name="txtEmail">E-mail</string>
+    <string name="txtCelular">Celular</string>
+    <string name="cadastrar">Cadastrar</string>
+
+</resources>
